@@ -38,7 +38,7 @@ struct ContentView: View {
 //                SpectrumVisualizerView(powerLevels: $pulseHeights)
 //                SpectrumVisualizerView(waveform: selectedWaveform)
                 SpectrumVisualizerView(waveform: selectedWaveform, frequency: Int(coarseFreq + fineFreq))
-                    .frame(height: 80)
+                    .frame(height: 90)
                 
                 Text("Frequency ")
                     .foregroundColor(.black)
